@@ -13,15 +13,19 @@
  
 ## Big-O gösterimini yazınız.
  (n*(n+1)/2) = (n^2 + n)/2 = n^2/2 + n/2
+ 
  O(n^2)
 
 ## Time Complexity: Average case: Aradığımız sayının ortada olması,Worst case: Aradığımız sayının sonda olması, Best case: Aradığımız sayının dizinin en başında olması.
  Average case: Aradığımız sayının (18) ortada olması -> [2,6,16,18,22,27]
+ 
  Worst case: Aradığımız sayının (2) sonda olması,   -> [27,22,18,16,6,2]
+ 
  Best case: Aradığımız sayının (2) dizinin en başında olması. -> [2,6,16,18,22,27]
 
 ## Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
  Dizinin sıralanmış hali: [2,6,16,18,22,27]
+ 
  İstenilen sayı, dizinin ortasında bulunduğu için Average case kapsamına girer.
 
 ## [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
